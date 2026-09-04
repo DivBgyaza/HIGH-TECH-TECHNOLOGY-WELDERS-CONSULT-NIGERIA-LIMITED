@@ -42,6 +42,31 @@ import solar2 from './assets/services/solar/solar-2.jpg';
 import solar3 from './assets/services/solar/solar-3.jpg';
 import solar4 from './assets/services/solar/solar-4.jpg';
 import solar5 from './assets/services/solar/solar-5.jpg';
+import beverages1 from './assets/services/beverages/beverages-1.jpg';
+import beverages2 from './assets/services/beverages/beverages-2.jpg';
+import beverages3 from './assets/services/beverages/beverages-3.jpg';
+import importExport1 from './assets/services/import-export/import-export-1.jpg';
+import importExport2 from './assets/services/import-export/import-export-2.jpg';
+import estate1 from './assets/services/estate/estate-1.jpg';
+import estate2 from './assets/services/estate/estate-2.jpg';
+import estate3 from './assets/services/estate/estate-3.jpg';
+import estate4 from './assets/services/estate/estate-4.jpg';
+import estate5 from './assets/services/estate/estate-5.jpg';
+import petrolStation1 from './assets/services/petrol-stations/petrol-station-1.jpg';
+import petrolStation2 from './assets/services/petrol-stations/petrol-station-2.jpg';
+import petrolStation3 from './assets/services/petrol-stations/petrol-station-3.jpg';
+import petrolStation4 from './assets/services/petrol-stations/petrol-station-4.jpg';
+import cctv1 from './assets/services/cctv/cctv-1.jpg';
+import cctv2 from './assets/services/cctv/cctv-2.jpg';
+import cctv3 from './assets/services/cctv/cctv-3.jpg';
+import cctv4 from './assets/services/cctv/cctv-4.jpg';
+import cctv5 from './assets/services/cctv/cctv-5.jpg';
+import foodProcessing1 from './assets/services/food-processing/food-processing-1.jpg';
+import foodProcessing2 from './assets/services/food-processing/food-processing-2.jpg';
+import foodProcessing3 from './assets/services/food-processing/food-processing-3.jpg';
+import foodProcessing4 from './assets/services/food-processing/food-processing-4.jpg';
+import foodProcessing5 from './assets/services/food-processing/food-processing-5.jpg';
+import foodProcessing6 from './assets/services/food-processing/food-processing-6.jpg';
 
 export const services=[
  {id:1,title:'Welding Services & Contracting',short:'Welding',icon:Anvil,description:'Welding services and contracting.',images:[
@@ -64,7 +89,10 @@ export const services=[
   {src:trading1,alt:'Retail clothing and accessories display in a merchandising store'},
   {src:trading2,alt:'Branded apparel merchandising display in a retail store'}
  ]},
- {id:4,title:'Import & Export of Goods',short:'Import & Export',icon:Ship,description:'Import and export of goods.'},
+ {id:4,title:'Import & Export of Goods',short:'Import & Export',icon:Ship,description:'Import and export of goods.',images:[
+  {src:importExport1,alt:'Freight container truck positioned for cargo transport'},
+  {src:importExport2,alt:'Import and export shipping containers suspended at a cargo terminal'}
+ ]},
  {id:5,title:'Farming & Livestock Breeding',short:'Agriculture',icon:Sprout,description:'Farming and livestock breeding.',images:[
   {src:farming1,alt:'Fish farming ponds with aquaculture facilities'},
   {src:farming2,alt:'Farmer harvesting leafy crops in a cultivated field'},
@@ -80,10 +108,32 @@ export const services=[
   {src:solar4,alt:'Solar panel array generating renewable energy'},
   {src:solar5,alt:'Solar panels, inverters, and energy storage equipment'}
  ]},
- {id:7,title:'Petrol Filling Stations & Service Stations',short:'Petroleum',icon:Fuel,description:'Petrol filling stations and service stations.'},
- {id:8,title:'Food Processing & Manufacturing',short:'Food Processing',icon:CookingPot,description:'Food processing and manufacturing.'},
- {id:9,title:'Soft Drinks & Pure Water Production',short:'Beverages',icon:CupSoda,description:'Soft drinks and pure water production.'},
- {id:10,title:'CCTV Installation & Security Services',short:'Security',icon:ShieldCheck,description:'CCTV installation and security services.'},
+ {id:7,title:'Petrol Filling Stations & Service Stations',short:'Petroleum',icon:Fuel,description:'Petrol filling stations and service stations.',images:[
+  {src:petrolStation1,alt:'Fuel pumps at a petrol filling station forecourt'},
+  {src:petrolStation2,alt:'Fuel nozzle dispensing petrol into a vehicle'},
+  {src:petrolStation3,alt:'Standalone fuel dispensing pump at a service station'},
+  {src:petrolStation4,alt:'Modern petrol station with multiple fuel pumps'}
+ ]},
+ {id:8,title:'Food Processing & Manufacturing',short:'Food Processing',icon:CookingPot,description:'Food processing and manufacturing.',images:[
+  {src:foodProcessing1,alt:'Workers monitoring an industrial food processing line'},
+  {src:foodProcessing2,alt:'Grain storage silos beside cultivated farmland'},
+  {src:foodProcessing3,alt:'Prepared food product moving along a factory conveyor'},
+  {src:foodProcessing4,alt:'Automated potato sorting and packaging equipment'},
+  {src:foodProcessing5,alt:'Workers preparing fresh vegetables for food packaging'},
+  {src:foodProcessing6,alt:'Corn cobs moving through an agricultural processing conveyor'}
+ ]},
+ {id:9,title:'Soft Drinks & Pure Water Production',short:'Beverages',icon:CupSoda,description:'Soft drinks and pure water production.',images:[
+  {src:beverages1,alt:'Bottling line for packaged drinking water production'},
+  {src:beverages2,alt:'Workers operating a bottled water production facility'},
+  {src:beverages3,alt:'Stainless steel water filtration and treatment equipment'}
+ ]},
+ {id:10,title:'CCTV Installation & Security Services',short:'Security',icon:ShieldCheck,description:'CCTV installation and security services.',images:[
+  {src:cctv1,alt:'CCTV surveillance cameras and monitoring equipment kit'},
+  {src:cctv2,alt:'Security cameras and recording equipment for surveillance systems'},
+  {src:cctv3,alt:'Handheld multi-camera surveillance device'},
+  {src:cctv4,alt:'Technician installing a CCTV security camera'},
+  {src:cctv5,alt:'Mounted CCTV security cameras under a ceiling'}
+ ]},
  {id:11,title:'General Printing',short:'Printing',icon:Printer,description:'General printing.',images:[
   {src:printing1,alt:'Company representative beside commercial printing equipment'},
   {src:printing2,alt:'Company office with printing and document production equipment'},
@@ -100,7 +150,13 @@ export const services=[
   {src:fashion8,alt:'Fashion and design industry services grey embroidered outfit'},
   {src:fashion9,alt:'Fashion and design industry services cream embroidered outfit'}
  ]},
- {id:13,title:'Estate Management & Property Development',short:'Property',icon:Building2,description:'Estate management and property development.'},
+ {id:13,title:'Estate Management & Property Development',short:'Property',icon:Building2,description:'Estate management and property development.',images:[
+  {src:estate1,alt:'Building development plans with a house under construction'},
+  {src:estate2,alt:'Illustrated residential estate planning and property management layout'},
+  {src:estate3,alt:'Modern multi-storey residential property development'},
+  {src:estate4,alt:'Contemporary residential housing development along a street'},
+  {src:estate5,alt:'Completed residential estate with detached homes'}
+ ]},
  {id:14,title:'Transportation & Tourism',short:'Transport',icon:Bus,description:'Transportation and tourism.',images:[
   {src:transport1,alt:'Transportation and tourism services equipment'},
   {src:transport2,alt:'Transportation and tourism services equipment'},
