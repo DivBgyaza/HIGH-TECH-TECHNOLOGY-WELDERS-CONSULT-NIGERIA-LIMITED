@@ -67,6 +67,9 @@ import foodProcessing3 from './assets/services/food-processing/food-processing-3
 import foodProcessing4 from './assets/services/food-processing/food-processing-4.jpg';
 import foodProcessing5 from './assets/services/food-processing/food-processing-5.jpg';
 import foodProcessing6 from './assets/services/food-processing/food-processing-6.jpg';
+import naturalResources1 from './assets/services/natural-resources/natural-resources-1.jpeg';
+import naturalResources2 from './assets/services/natural-resources/natural-resources-2.jpeg';
+import naturalResources3 from './assets/services/natural-resources/natural-resources-3.jpeg';
 
 export const services=[
  {id:1,title:'Welding Services & Contracting',short:'Welding',icon:Anvil,description:'Welding services and contracting.',images:[
@@ -164,6 +167,11 @@ export const services=[
   {src:transport4,alt:'Transportation and tourism services vehicle'},
   {src:transport5,alt:'Transportation and tourism services vehicle'},
   {src:transport6,alt:'Transportation and tourism services motorcycle'}
+ ]},
+ {id:15,title:'Natural Resources',short:'Natural Resources',icon:Warehouse,description:'Natural resources and mineral materials.',images:[
+  {src:naturalResources1,alt:'Natural resource mineral and rock samples'},
+  {src:naturalResources2,alt:'Natural stone and mineral resources'},
+  {src:naturalResources3,alt:'Field mineral sample during natural resource inspection'}
  ]}
 ];
 
